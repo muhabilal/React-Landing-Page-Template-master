@@ -1,0 +1,192 @@
+.design-services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f5f5f5; */
+}
+
+.circle {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.service p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Positions for left-side services */
+.orange {
+    top: 10%;
+    left: 5%;
+    color: orange;
+}
+
+.red {
+    top: 45%;
+    left: 0%;
+    transform: translate(0, -50%);
+    color: red;
+}
+
+.cyan {
+    bottom: 15%;
+    left: 10%;
+    color: cyan;
+}
+
+/* Positions for right-side services */
+.blue {
+    top: 50%;
+    right: 3%;
+    transform: translate(0, -50%);
+    color: blue;
+}
+
+.green {
+    top: 15%;
+    right: 10%;
+    color: green;
+}
+
+.darkblue {
+    bottom: 15%;
+    right: 10%;
+    color: darkblue;
+}
+
+.center-circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-text{
+    position: absolute;
+    text-align: center;
+}
+.center-circle h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .circle {
+        width: 600px;
+        height: 450px;
+    }
+
+    .service {
+        width: 130px;
+        height: 130px;
+    }
+
+    .center-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .center-circle h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .design-services-container {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .circle {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .service {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        margin: 20px 0;
+    }
+
+    .center-circle {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .center-circle h1 {
+        font-size: 18px;
+    }
+
+    .fa {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service {
+        width: 100px;
+        height: 100px;
+    }
+
+    .service i {
+        font-size: 24px;
+    }
+
+    .service h3 {
+        font-size: 12px;
+    }
+
+    .service p {
+        font-size: 10px;
+    }
+
+    .center-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .center-circle h1 {
+        font-size: 16px;
+    }
+}

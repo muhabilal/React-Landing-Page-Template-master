@@ -1,0 +1,76 @@
+.header-container {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('../assets/ai.jpg');
+    /* Adjust the path if needed */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* Adjust the height as needed */
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Adjust the font size as needed */
+}
+.header-text h1{
+    font-family: 'Avenir, Arial, Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    margin-bottom: 0.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-text p{
+    padding-left: 20px;
+        padding-right: 20px;
+        font-size: 25px;
+        line-height: 38px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .header-text h1 {
+        font-size: 60px;
+    }
+
+    .header-text p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        height: 400px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        height: 300px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

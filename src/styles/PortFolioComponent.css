@@ -1,0 +1,80 @@
+/* .portfolio-card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+} */
+
+/* .portfolio-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+/* 
+.portfolio-card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+} */
+
+/* .portfolio-card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+} */
+
+/* .portfolio-card-text {
+    margin-top: 5px;
+} */
+
+
+.portfolio-card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s;
+    /* Add a transition for smoother movement */
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    /* Move the card 5px up on hover */
+}
+
+.portfolio-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for overlay effect */
+    color: white;
+    text-align: center;
+}
+
+.portfolio-card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.portfolio-card-text {
+    margin-top: 5px;
+}

@@ -1,0 +1,17 @@
+.mySwiper1 {
+    width: 100%;
+    height: 300px;
+    /* Adjust the height as needed */
+}
+.swiper-slide img:hover {
+    opacity: 1;
+}
+.change-opc{
+    opacity: 0.5;
+        transition: 0.3s;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
