@@ -6,7 +6,7 @@ function PortFolioComponent({ title, desc, imageUrl, link }) {
     <div className="col-md-4" style={{ marginBottom: 20 }}>
       <a
         href={link}
-        target="_blank"
+        // target="_blank"
         rel="noopener noreferrer"
         className="card-link"
         style={{ cursor: "pointer" }}
